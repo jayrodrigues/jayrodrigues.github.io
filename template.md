@@ -2,28 +2,28 @@
 
     GET example/:id
 
-    ## Description
+## Description
 
-    ***
+***
 
-    ## Requires authentication
+## Requires authentication
 
-    ***
+***
 
-    ## Parameters
+## Parameters
 
-    ***
+***
 
-    ## Return format
+## Return format
 
-    ***
+***
 
-    ## Errors
+## Errors
 
-    ***
+***
 
-    ## Example
-    **Request**
+## Example
+**Request**
 
         Code Example
 
