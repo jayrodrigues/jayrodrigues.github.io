@@ -8,6 +8,6 @@ This is the v1 version of the document.
 
 ### Authentication
 
-- **[<code>GET</code> /users](https://www.sample.com)**
+- **```GET /users```(https://www.sample.com)**
 
 ### Registration
