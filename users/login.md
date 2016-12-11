@@ -8,22 +8,17 @@ The registration endpoint is used to register new users accounts in RSA.
 GET /api/users/login
 ```
 
-## Authorization
-
-OAuth 2.0 bearer token with the request scope.
-
 ## Parameters
 
 
 Name              	| Type   	| Description
 :------------------|:----------	|:--------------------
-username			|string		|**required**
-password		  	|string	 	|**required** Please pass the password parameter with base64_encoded format
+username			|string		|**[required]**
+password		  	|string	 	|**[required]** Base64-encoded text.
 
 
 
 ## Example
-
 
 ### Request
 ***
@@ -31,9 +26,6 @@ password		  	|string	 	|**required** Please pass the password parameter with bas
 ```
 curl -X GET http://staging-api.deplacementpeninsule.ca/api/users/login?username=janefoster111@gmail.com&password=pa55word09
 ```
-
-
-
 
 ### Response
 ***
@@ -63,5 +55,4 @@ curl -X GET http://staging-api.deplacementpeninsule.ca/api/users/login?username=
 }
 ```
 
-***
 

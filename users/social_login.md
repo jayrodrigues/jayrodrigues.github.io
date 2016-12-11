@@ -1,16 +1,12 @@
-# Book a Ride
+# Social Login
 
-The Ride Request endpoint allows a ride to be requested.
+
 
 ## Resource
 
 ```
-GET example/:id
+GET /users/social_login
 ```
-
-## Authorization
-
-OAuth 2.0 bearer token with the request scope.
 
 ## Parameters
 
@@ -19,15 +15,12 @@ Name              	| Type   	| Description
 site_lang			|string		|**[required]** en / fr
 first_name		  	|string	 	|**[required]**
 last_name		  	|string	 	|**[required]**
+gender			  	|int	 	|**[required]** 0 = male / 1 = female
+email			  	|string	 	|**[required]**
+profile_img		  	|string	 	|**[required]** Required when signing up via social logins
+identifier		  	|string	 	|**[required]** Required when signing up via social logins
+provider		  	|string	 	|**[required]**
 
-
-### Optional Parameters
-***
-
-Name              | Type    | Description
-:-----------------|:--------|:------------
-size			  |integer	 |**[optional]**, values: 25, 28, 30, 32, 50, 54, 56, 60, 64, 108, 128, 135, 256, 270, 512 and original
-fallback		  |boolean	 |**[optional]**
 
 
 ## Example
