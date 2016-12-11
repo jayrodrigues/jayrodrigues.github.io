@@ -19,7 +19,7 @@ This is the v1 version of the document.
 ### Profile
 - [**`GET`** /users/profile](/users/profile.md)
 - [**`GET`** /users/lic_verify](/users/lic_verify.md)
-- [**`GET`** /users/user (data)]
+- [**`GET`** /users/user (data)](/users/user_data.md)
 - [**`GET`** /users/user (image)]
 
 ### Request Rides
