@@ -1,6 +1,6 @@
 # License Verify
 
-Endpoint to use to verify users license.
+Common Function to check whether an user licence verified
 
 ## Resource
 
