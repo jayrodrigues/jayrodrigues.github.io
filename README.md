@@ -13,12 +13,12 @@ This is the v1 version of the document.
 ### Authentication
 
 - [**`GET`** /users/login](/users/login.md)
-- [**`GET`** /users/social_login](/users/social_login.md)
+- [**`GET`** /users/social_login](/users/social_login.md) **
 - [**`GET`** /users/forgot_password](/users/forgot_password.md)
 
 ### Profile
-- [**`GET`** /users/profile]
-- [**`GET`** /users/lic_verify]
+- [**`GET`** /users/profile](/users/profile.md)
+- [**`GET`** /users/lic_verify](/users/lic_verify.md)
 - [**`GET`** /users/user (data)]
 - [**`GET`** /users/user (image)]
 
@@ -39,7 +39,7 @@ This is the v1 version of the document.
 - [**`POST`** /ride/update_price]
 
 ### My Trips: Driver
-- [**`GET`** /my_trips/handle_action] 
+- [**`GET`** /my_trips/handle_action]
 - [**`GET`** /my_trips/handle_action] (method: driver)
 - [**`GET`** /my_trips/handle_action] (method: driver_past)
 - [**`POST`** /my_trips/handle_action] (method: edit_ride)
