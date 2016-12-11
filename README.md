@@ -19,7 +19,6 @@ This is the v1 version of the document.
 ### Profile
 - [**`GET`** /users/profile]
 - [**`GET`** /users/lic_verify]
-- [**`GET`** /users/membership_verify]
 - [**`GET`** /users/user (data)]
 - [**`GET`** /users/user (image)]
 
@@ -94,3 +93,4 @@ This is the v1 version of the document.
 - **`GET`** /settings/membership
 - **`GET`** /settings/membership (Direct Payment via office)
 - **`GET`** /settings/stripe
+- **`GET`** /users/membership_verify - check if this is required
