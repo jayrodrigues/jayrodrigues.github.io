@@ -33,7 +33,7 @@ password			|string		|**optional**
 ***
 
 ```curl
-	curl -X GET http://staging-api.deplacementpeninsule.ca/api/users/sign_up?site_lang=en&first_name=Jane&last_name=Foster&gender=2&email=janefoster111@gmail.com&password=pa55word09
+curl -X GET http://staging-api.deplacementpeninsule.ca/api/users/sign_up?site_lang=en&first_name=Jane&last_name=Foster&gender=2&email=janefoster111@gmail.com&password=pa55word09
 ```
 
 ### Response
