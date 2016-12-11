@@ -16,7 +16,7 @@ email				|string		|**[required]** User's primary Email address
 
 
 ## Example
-Optional message
+
 
 ### Request
 ***
