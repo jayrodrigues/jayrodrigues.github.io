@@ -1,6 +1,6 @@
 # Registration
 
-The Ride Request endpoint allows a ride to be requested.
+The registration endpoint is used to register new users accounts in RSA. 
 
 ## Resource
 
