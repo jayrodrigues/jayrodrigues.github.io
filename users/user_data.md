@@ -1,4 +1,4 @@
-# Forgot Password
+# Data for particular user
 
 Function to get the data of a particular user
 
