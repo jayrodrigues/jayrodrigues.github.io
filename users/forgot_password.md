@@ -1,6 +1,6 @@
 # Forgot Password
 
-Endpoint to use to reset the user's password. 
+Endpoint to use to reset the user's password.
 
 ## Resource
 
@@ -22,7 +22,7 @@ email				|string		|**[required]** User's primary Email address
 ***
 
 ```curl
-curl -X GET "http://staging-api.deplacementpeninsule.ca/api/users/forgot_password?email=janefoster111@gmail.com"
+curl -X GET "http://staging-api.deplacementpeninsule.ca/api/users/forgot_password?email=ji.mmyjanesone@gmail.com"
 ```
 
 ### Response
@@ -50,4 +50,3 @@ curl -X GET "http://staging-api.deplacementpeninsule.ca/api/users/forgot_passwor
   "status": ""
 }
 ```
-
