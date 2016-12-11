@@ -8,10 +8,6 @@ The registration endpoint is used to register new users accounts in RSA.
 GET /api/users/sign_up
 ```
 
-## Authorization
-
-OAuth 2.0 bearer token with the request scope.
-
 ## Parameters
 
 

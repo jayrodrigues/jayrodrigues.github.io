@@ -12,7 +12,7 @@ This is the v1 version of the document.
 
 ### Authentication
 
-- **`GET`** /users/login
+- [**`GET`** /users/login](/users/login.md)
 - **`GET`** /users/social_login
 - **`GET`** /users/forgot_password
 
