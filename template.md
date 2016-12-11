@@ -1,39 +1,81 @@
-# Photo Resources
+# Book a Ride
 
-    GET example/:id
+The Ride Request endpoint allows a ride to be requested.
 
-## Description
+## Resource
 
-***
+```
+GET example/:id
+```
 
-## Requires authentication
+## Authorization
 
-***
+OAuth 2.0 bearer token with the request scope.
 
 ## Parameters
 
+Name              	| Type   	| Description
+:------------------	|:----------|:--------------------
+site_lang			|string		|**required** en / fr
+first_name		  	|string	 	|**required**
+last_name		  	|string	 	|**required**
+
+
+### Optional Parameters
 ***
 
-## Return format
+Name              | Type    | Description
+:-----------------|:--------|:------------
+user_id			  |integer	 |**required**
+size			  |integer	 |**optional**, values: 25, 28, 30, 32, 50, 54, 56, 60, 64, 108, 128, 135, 256, 270, 512 and original
+fallback		  |boolean	 |**optional**
 
-***
-
-## Errors
-
-***
 
 ## Example
-**Request**
+Optional message
 
-        Code Example
+### Request
+***
 
-        **Return**
+```curl
+curl -v -u 1971800d4d82861d8f2c1651fea4d212:api_token \
+    -H "Content-Type: application/json" \
+    -d '{"client":{"name":"Very Big Company","wid":777}}' \
+    -X POST https://www.toggl.com/api/v8/clients
+```
 
-            Code Example
+### Response
+***
+
+**Status-Code:** ```200 OK```
+
+```json
+{
+    "data": {
+        "id":1239455,
+        "wid":777,
+        "name":"Very Big Company",
+        "at":"2013-02-26T08:45:28+00:00"
+    }
+}
+```
 
 
-            [photo stream]: https://github.com/500px/api-documentation/blob/master/basics/formats_and_terms.md#500px-photo-terms
-            [OAuth]: https://github.com/500px/api-documentation/tree/master/authentication
-            [full format]: https://github.com/500px/api-documentation/blob/master/basics/formats_and_terms.md#full-format
-            [short format]: https://github.com/500px/api-documentation/blob/master/basics/formats_and_terms.md#short-format-1
-            [category]: https://github.com/500px/api-documentation/blob/master/basics/formats_and_terms.md#categories
+### Error Responses
+***
+
+**Status-Code:** ```200 OK```
+
+
+```json
+{
+    "data": {
+        "id":1239455,
+        "wid":777,
+        "name":"Very Big Company",
+        "at":"2013-02-26T08:45:28+00:00",
+        "notes": "Contact: John Jacob Jingleheimer Schmidt"
+    }
+}
+```
+

@@ -6,42 +6,67 @@ This is the v1 version of the document.
 
 ## Endpoints
 
+### Registration
+- **GET /users/sign_up**
+
+
 ### Authentication
 
 - **[```GET /users```](/users/com)**
-- **GET /users/sign_up**
 - **GET /users/login**
 - **GET /users/social_login**
 - **GET /users/forgot_password**
+
+### Profile
 - **GET /users/profile**
 - **GET /users/lic_verify**
 - **GET /users/membership_verify**
 - **GET /users/user (data)**
 - **GET /users/user (image)**
 
+### Request Rides
+
 - **[```GET /ride```](/users/com)**
-- **GET /ride/book_ride**
+- **GET /search/list**
 - **GET /ride/ride_detail**
+- **GET /ride/book_ride**
+
+
+### Offer Rides
+
 - **POST /ride/offer_ride**
 - **POST /ride/update_price**
 - **GET /ride/offer_ride**
 - **POST /ride/update_price**
 - **POST /ride/update_price**
 
+### My Trips: Driver
+- **[```GET /my_trips/handle_action```](/users/com)**
+- **GET /my_trips/handle_action (method: driver)**
+- **GET /my_trips/handle_action (method: driver_past)**
+- **POST /my_trips/handle_action (method: edit_ride)**
+- **GET /my_trips/handle_action (method: cancel_ride)**
 
-- **[```GET /search```](/users/com)**
-**GET /search/list**
+
+### My Trips: Passenger
+- **GET /my_trips/handle_action (method: passenger)**
+- **GET /my_trips/handle_action (method: passenger_past)**
+- **POST /my_trips/handle_action (cancel passenger)**
+
+
+
+### Settings
 
 - **[```GET /settings```](/users/com)**
 - **GET /settings/change_password**
 - **GET /settings/personal_info**
 - **GET /settings/authentication**
 - **GET /settings/preference**
-- **GET /settings/membership**
-- **GET /settings/membership (Direct Payment via office)**
-- **GET /settings/stripe**
 
-Vehicle settings
+
+### Vehicle
+
+
 - **GET /settings/load_makes**
 - **GET /settings/load_models**
 - **GET /settings/co2_emission**
@@ -49,20 +74,15 @@ Vehicle settings
 - **GET /settings/vehicle**
 - **GET /settings/manage_veh**
 
-- **[```GET /my_trips/handle_action```](/users/com)**
-- **GET /my_trips/handle_action (method: driver)**
-- **GET /my_trips/handle_action (method: passenger)**
-- **GET /my_trips/handle_action (method: driver_past)**
-- **GET /my_trips/handle_action (method: passenger_past)**
-- **POST /my_trips/handle_action (method: edit_ride)**
-- **GET /my_trips/handle_action (method: cancel_ride)**
-- **POST /my_trips/handle_action (cancel passenger)**
+### Messages
 
 **[```GET /message```](/users/com)**
 - **GET /message/unread**
 - **GET /message/inbox**
 - **GET /message/detail**
 - **POST /message/send_batch_message**
+
+### Ratings
 
 **[```GET /ratings```](/users/com)**
 - **POST /ratings/rating_pending**
@@ -71,4 +91,7 @@ Vehicle settings
 - **POST /ratings/ratings/rating_campanign**
 
 
-### Registration
+### Deprecated
+- **GET /settings/membership**
+- **GET /settings/membership (Direct Payment via office)**
+- **GET /settings/stripe**
