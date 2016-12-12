@@ -57,9 +57,9 @@ This is the v1 version of the document.
 
 - **[```GET /settings```](/users/com)**
 - [**`GET`** /settings/change_password]
-- [**`GET`** /settings/personal_info]
+- [**`GET`** /settings/personal_info](/settings/personal_info.md)
 - [**`GET`** /settings/authentication]
-- [**`GET`** /settings/preference]
+- [**`GET`** /settings/preference](/settings/preference.md)
 
 
 ### Vehicle
