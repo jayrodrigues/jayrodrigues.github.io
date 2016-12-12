@@ -65,8 +65,8 @@ This is the v1 version of the document.
 ### Vehicle
 
 
-- [**`GET`** /settings/load_makes]
-- [**`GET`** /settings/load_models]
+- [**`GET`** /settings/load_makes](/settings/load_makes.md)
+- [**`GET`** /settings/load_models](/settings/load_models.md)
 - [**`GET`** /settings/co2_emission]
 - [**`GET`** /settings/veh_delete]
 - [**`GET`** /settings/vehicle]
