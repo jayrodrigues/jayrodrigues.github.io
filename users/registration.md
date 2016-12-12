@@ -1,6 +1,6 @@
 # Registration
 
-The registration endpoint is used to register new users accounts in RSA. 
+The registration endpoint is used to register new users accounts in RSA.
 
 ## Resource
 
@@ -16,7 +16,7 @@ Name              	| Type   	| Description
 site_lang			|string		|**required** en / fr
 first_name		  	|string	 	|**required**
 last_name		  	|string	 	|**required**
-gender			  	|int		|**optional** 0 = male / 1 = female 
+gender			  	|int		|**optional** 1 = male / 1 = female
 email				|string		|**optional**
 password			|string		|**optional**
 

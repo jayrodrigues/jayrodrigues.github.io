@@ -67,10 +67,10 @@ This is the v1 version of the document.
 
 - [**`GET`** /settings/load_makes](/settings/load_makes.md)
 - [**`GET`** /settings/load_models](/settings/load_models.md)
-- [**`GET`** /settings/co2_emission]
+- [**`GET`** /settings/co2_emission](/settings/co2_emission.md)
 - [**`GET`** /settings/veh_delete]
-- [**`GET`** /settings/vehicle]
-- [**`GET`** /settings/manage_veh]
+- [**`GET`** /settings/vehicle](/settings/vehicle.md)
+- [**`GET`** /settings/manage_veh](/settings/manage_veh.md)
 
 ### Messages
 

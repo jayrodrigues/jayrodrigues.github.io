@@ -19,7 +19,8 @@ gender			  	|int	 	|**[required]** 0 = male / 1 = female
 email			  	|string	 	|**[required]**
 profile_img		  	|string	 	|**[required]** Required when signing up via social logins
 identifier		  	|string	 	|**[required]** Required when signing up via social logins
-provider		  	|string	 	|**[required]**
+provider		  	|string	 	|**[required]** provider(0 = Direct Login, 1 = Facebook, 2 = Google)
+
 
 
 
@@ -70,4 +71,3 @@ curl -v -u 1971800d4d82861d8f2c1651fea4d212:api_token \
     }
 }
 ```
-
