@@ -56,7 +56,7 @@ This is the v1 version of the document.
 ### Settings
 
 - **[```GET /settings```](/users/com)**
-- [**`GET`** /settings/change_password]
+- [**`GET`** /settings/change_password](/settings/change_password.md)
 - [**`GET`** /settings/personal_info](/settings/personal_info.md)
 - [**`GET`** /settings/authentication]
 - [**`GET`** /settings/preference](/settings/preference.md)
