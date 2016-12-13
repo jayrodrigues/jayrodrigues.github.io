@@ -11,12 +11,12 @@ GET /settings/veh_delete
 ## Parameters
 
 
-| URI Parameter | Type   | Required                       | Description |
-|:--------------|:-------|:-------------------------------|:------------|
-| site_lang     | string | **[required]** en              |             |
-| login_hash    | string | **[required]** <user hash key> |             |
-| veh_id        | string |                                |             |
-| file_name     | string | optional                       |             |
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| site_lang     | string | yes      | en              |
+| login_hash    | string | yes      | <user hash key> |
+| veh_id        | string |          |                 |
+| file_name     | string | no       |                 |
 
 
 ## Example

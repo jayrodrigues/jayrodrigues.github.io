@@ -11,11 +11,11 @@ GET /settings/load_models
 ## Parameters
 
 
-| URI Parameter | Type   | Required                       | Description |
-|:--------------|:-------|:-------------------------------|:------------|
-| login_hash    | string | **[required]** <user hash key> |             |
-| year          | string | **[required]**                 |             |
-| make_id       | int    |                                |             |
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| login_hash    | string | yes      | <user hash key> |
+| year          | string | yes      |                 |
+| make_id       | int    |          |                 |
 
 
 ## Example

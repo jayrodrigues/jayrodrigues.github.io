@@ -11,10 +11,10 @@ GET /settings/vehicle
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-veh_id  | string |
-login_hash			|string		|**[required]** <user hash key>
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| veh_id        | string |          |                 |
+| login_hash    | string | yes      | <user hash key> |
 
 (specify logged in user hash to get all the vehicles of a that user)
 
