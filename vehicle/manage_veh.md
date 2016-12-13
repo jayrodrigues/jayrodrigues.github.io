@@ -11,34 +11,34 @@ GET /settings/manage_veh
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-req_item			|string		| (add/edit)
-site_lang			|string		|**[required]** en
-login_hash			|string		|**[required]** <user hash key>
-veh_data[ac]		  	|int	 	| optional
-veh_data[bike_rack]		  	|int	 	| optional
-veh_data[body_type]		|int  |
-veh_data[co2_output]		|int  |
-veh_data[color] |string | optional
-veh_data[comfort_level] | int |
-veh_data[distance_driven] | string |
-veh_data[fuel_efficiency] | string |
-veh_data[license_code] | string |
-veh_data[license_number] | string |
-veh_data[luggage] | int |
-veh_data[make] | int |
-veh_data[mileage] | int |
-veh_data[mileage_checked] | int |
-veh_data[model] | string |
-veh_data[process] | int | (1=submitted 0=not submitted)
-veh_data[seats] | string |
-veh_data[ski_rack] | int | optional
-veh_data[transmission] | int |
-veh_data[transmission_checked] | int |
-veh_data[tyre_type] | int |
-veh_data[year] | string |
-veh_id | string | if req_item = edit <id of the vehicles needs to update>
+| URI Parameter                  | Type   | Required                                                | Description |
+|:-------------------------------|:-------|:--------------------------------------------------------|:------------|
+| req_item                       | string | (add/edit)                                              |             |
+| site_lang                      | string | **[required]** en                                       |             |
+| login_hash                     | string | **[required]** <user hash key>                          |             |
+| veh_data[ac]                   | int    | optional                                                |             |
+| veh_data[bike_rack]            | int    | optional                                                |             |
+| veh_data[body_type]            | int    |                                                         |             |
+| veh_data[co2_output]           | int    |                                                         |             |
+| veh_data[color]                | string | optional                                                |             |
+| veh_data[comfort_level]        | int    |                                                         |             |
+| veh_data[distance_driven]      | string |                                                         |             |
+| veh_data[fuel_efficiency]      | string |                                                         |             |
+| veh_data[license_code]         | string |                                                         |             |
+| veh_data[license_number]       | string |                                                         |             |
+| veh_data[luggage]              | int    |                                                         |             |
+| veh_data[make]                 | int    |                                                         |             |
+| veh_data[mileage]              | int    |                                                         |             |
+| veh_data[mileage_checked]      | int    |                                                         |             |
+| veh_data[model]                | string |                                                         |             |
+| veh_data[process]              | int    | (1=submitted 0=not submitted)                           |             |
+| veh_data[seats]                | string |                                                         |             |
+| veh_data[ski_rack]             | int    | optional                                                |             |
+| veh_data[transmission]         | int    |                                                         |             |
+| veh_data[transmission_checked] | int    |                                                         |             |
+| veh_data[tyre_type]            | int    |                                                         |             |
+| veh_data[year]                 | string |                                                         |             |
+| veh_id                         | string | if req_item = edit <id of the vehicles needs to update> |             |
 
 ## Example
 

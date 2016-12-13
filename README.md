@@ -24,7 +24,6 @@ This is the v1 version of the document.
 
 ### Request Rides
 
-- [**`GET /ride`**]
 - [**`GET`** /search/list]
 - [**`GET`** /ride/ride_detail]
 - [**`GET`** /ride/book_ride]

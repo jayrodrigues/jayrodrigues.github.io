@@ -11,10 +11,10 @@ GET /settings/load_makes
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-year  |string|**[required]**
+| URI Parameter | Type   | Required                       | Description |
+|:--------------|:-------|:-------------------------------|:------------|
+| login_hash    | string | **[required]** <user hash key> |             |
+| year          | string | **[required]**                 |             |
 
 
 ## Example

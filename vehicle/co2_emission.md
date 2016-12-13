@@ -11,16 +11,16 @@ GET /settings/co2_emission
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-site_lang | string |**[required]** en
-login_hash			|string		|**[required]** <user hash key>
-year  |string|
-make_id | int|
-model_id | int |
-distance | int |
-transmission | int |
-mileage | int |
+| URI Parameter | Type   | Required                       | Description |
+|:--------------|:-------|:-------------------------------|:------------|
+| site_lang     | string | **[required]** en              |             |
+| login_hash    | string | **[required]** <user hash key> |             |
+| year          | string |                                |             |
+| make_id       | int    |                                |             |
+| model_id      | int    |                                |             |
+| distance      | int    |                                |             |
+| transmission  | int    |                                |             |
+| mileage       | int    |                                |             |
 
 
 ## Example
