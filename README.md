@@ -94,4 +94,4 @@ This is the v1 version of the document.
 - [**`GET`** /settings/membership](/membership/membership.md)
 - [**`GET`** /settings/membership (Direct Payment via office)](/membership/membership_office.md)
 - [**`GET`** /settings/stripe](/membership/stripe.md)
-- [**`GET`** /users/membership_verify] - check if this is required
+- [**`GET`** /users/membership_verify](/membership/membership_verify.md)
