@@ -16,20 +16,20 @@ GET /search/list
 | site_lang     | string | yes      | en          |
 | end_time      | string |          |             |
 | frequency     | string |          |             |
-| from_distance | string | optional |             |
-| from_lat      | string | optional |             |
-| from_lng      | string | optional |             |
+| from_distance | string |          |             |
+| from_lat      | string |          |             |
+| from_lng      | string |          |             |
 | price_from    | string |          |             |
 | price_to      | string |          |             |
-| search_date   | string | optional |             |
-| search_from   | string | optional |             |
-| search_to     | string | optional |             |
-| sort_by       | string | optional |             |
-| proximity     | string | optional |             |
+| search_date   | string |          |             |
+| search_from   | string |          |             |
+| search_to     | string |          |             |
+| sort_by       | string |          |             |
+| proximity     | string |          |             |
 | start_time    | string |          |             |
 | to_distance   | string |          |             |
-| to_lat        | string | optional |             |
-| to_lng        | string | optional |             |
+| to_lat        | string |          |             |
+| to_lng        | string |          |             |
 
 <!--Comments : search_from or search_to, either any of the one is only required.
 Comments : (to_lat & to_lng) or (from_lat & from_lng), either any of the one is only required.
