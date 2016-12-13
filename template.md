@@ -10,15 +10,14 @@ GET example/:id
 
 ## Requires authentication
 
-    ***
 
 ## Parameters
 
-URI Parameter		|Type		|Required    | Description
-:------------------	|:----------|:-----------|:-----------
-user_id|integer|yes|
-size|integer|no| values: 25, 28, 30, 32, 50, 54, 56, 60, 64, 108, 128, 135, 256, 270, 512 and original
-fallback|boolean| no |
+| URI Parameter | Type    | Required | Description                      |
+|:--------------|:--------|:---------|:---------------------------------|
+| user_id       | integer | yes      |                                  |
+| size          | integer | no       | values: 25, 28, 30, and original |
+| fallback      | boolean | no       |                                  |
 
 ***
 

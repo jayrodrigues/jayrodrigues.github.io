@@ -11,9 +11,9 @@ GET /settings/preference
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| login_hash    | string | yes      | <user hash key> |
 
 
 ## Example

@@ -10,9 +10,9 @@ GET /users/forgot_password
 
 ## Parameters
 
-Name              	| Type   	| Description
-:------------------	|:----------|:--------------------
-email				|string		|**[required]** User's primary Email address
+| URI Parameter | Type   | Required | Description                  |
+|:--------------|:-------|:---------|:-----------------------------|
+| email         | string | yes      | User's primary Email address |
 
 
 ## Example

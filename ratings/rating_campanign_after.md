@@ -11,20 +11,18 @@ POST /ratings/rating_campanign
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-site_lang		  	|string	 	|**[required]** en
-ride_hash   | string  | <ride hash key>
-ride_trip   | int |
-comment | string |
-data_count | int |
-passenger_id | int |
-passenger_stars_<passenger_id>  | string | just to append passenger id with parameters
-format
-comments_<passenger_id>   | string | just to append passenger id with parameters
-format
-process   | int | 1 = Submitted 0 = Not Submitted
+| URI Parameter                  | Type   | Required | Description                                        |
+|:-------------------------------|:-------|:---------|:---------------------------------------------------|
+| login_hash                     | string | yes      | <user hash key>                                    |
+| site_lang                      | string | yes      | en                                                 |
+| ride_hash                      | string |          | <ride hash key>                                    |
+| ride_trip                      | int    |          |                                                    |
+| comment                        | string |          |                                                    |
+| data_count                     | int    |          |                                                    |
+| passenger_id                   | int    |          |                                                    |
+| passenger_stars_<passenger_id> | string |          | just to append passenger id with parameters format |
+| comments_<passenger_id>        | string |          | just to append passenger id with parameters format |
+| process                        | int    |          | 1 = Submitted 0 = Not Submitted                    |
 
 ## Example
 

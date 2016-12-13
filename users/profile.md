@@ -11,10 +11,10 @@ GET /api/users/profile
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-public_profile			|int		|**required** 0: Logged in user's profile view. 1: Other users view this user's profile information.
-user_hash				  	|string	 	|**required**
+| URI Parameter  | Type   | Required | Description                                                                            |
+|:---------------|:-------|:---------|:---------------------------------------------------------------------------------------|
+| public_profile | int    | yes      | 0: Logged in user's profile view. 1: Other users view this user's profile information. |
+| user_hash      | string | yes      |                                                                                        |
 
 
 

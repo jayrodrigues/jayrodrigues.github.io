@@ -11,14 +11,14 @@ GET /api/users/sign_up
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-site_lang			|string		|**required** en / fr
-first_name		  	|string	 	|**required**
-last_name		  	|string	 	|**required**
-gender			  	|int		|**optional** 1 = male / 1 = female
-email				|string		|**optional**
-password			|string		|**optional**
+| URI Parameter | Type   | Required | Description           |
+|:--------------|:-------|:---------|:----------------------|
+| site_lang     | string | yes      | en / fr               |
+| first_name    | string | yes      |                       |
+| last_name     | string | yes      |                       |
+| gender        | int    | no       | 1 = male / 1 = female |
+| email         | string | no       |                       |
+| password      | string | no       |                       |
 
 
 

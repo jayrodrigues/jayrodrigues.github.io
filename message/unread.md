@@ -11,11 +11,10 @@ GET /message/unread
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-site_lang		  	|string	 	|**[required]** en
-
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| login_hash    | string | yes      | <user hash key> |
+| site_lang     | string | yes      | en              |
 
 
 ## Example

@@ -11,13 +11,12 @@ GET /settings/membership
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-site_lang |string |**[required]** en
-office | int  |
-payment_method | int  |
-process | int  | 1 = Submitted 0 = Not Submitted
+| URI Parameter  | Type   | Required | Description                     |
+|:---------------|:-------|:---------|:--------------------------------|
+| site_lang      | string | yes      | en                              |
+| office         | int    |          |                                 |
+| payment_method | int    |          |                                 |
+| process        | int    |          | 1 = Submitted 0 = Not Submitted |
 
 
 ## Example

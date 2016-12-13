@@ -11,11 +11,11 @@ GET /message/detail
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-site_lang		  	|string	 	|**[required]** en
-thread_hash   |string |**[required]**
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| login_hash    | string | yes      | <user hash key> |
+| site_lang     | string | yes      | en              |
+| thread_hash   | string | yes      |                 |
 
 ## Example
 

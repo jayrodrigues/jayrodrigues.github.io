@@ -11,16 +11,16 @@ POST /message/send_batch_message
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-site_lang		  	|string	 	|**[required]** en
-message | string |
-msg_id  | int |
-recipients  | int |
-reply_message | int |
-subject | string |
-thread_id | int |
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| login_hash    | string | yes      | <user hash key> |
+| site_lang     | string | yes      | en              |
+| message       | string |          |                 |
+| msg_id        | int    |          |                 |
+| recipients    | int    |          |                 |
+| reply_message | int    |          |                 |
+| subject       | string |          |                 |
+| thread_id     | int    |          |                 |
 
 
 

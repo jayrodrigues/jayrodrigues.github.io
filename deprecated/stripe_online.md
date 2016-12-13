@@ -10,15 +10,14 @@ GET /settings/stripe
 
 ## Parameters
 
-
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-site_lang |string |**[required]** en
-amount | string |
-expiry_date | date |
-stripe_token | string |
-stripe_data[status] | string |
+| URI Parameter       | Type   | Required | Description     |
+|:--------------------|:-------|:---------|:----------------|
+| login_hash          | string | yes      | <user hash key> |
+| site_lang           | string | yes      | en              |
+| amount              | string |          |                 |
+| expiry_date         | date   |          |                 |
+| stripe_token        | string |          |                 |
+| stripe_data[status] | string |          |                 |
 
 
 ## Example

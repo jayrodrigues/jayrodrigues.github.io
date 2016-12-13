@@ -10,9 +10,9 @@ GET /users/lic_verify
 
 ## Parameters
 
-Name              	| Type   	| Description
-:------------------	|:----------|:--------------------
-hash_key				|string		|**[required]**
+| URI Parameter | Type   | Required | Description |
+|:--------------|:-------|:---------|:------------|
+| hash_key      | string | yes      |             |
 
 
 ## Example

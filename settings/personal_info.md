@@ -11,30 +11,30 @@ GET /settings/personal_info
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-address_line[address1]		  	|string	 	|
-address_line[address2]		  	|string	 	|
-city		|string  |
-dob		|date  |1990-02-06
-email |string |
-extra_email1 | string | optional
-extra_email2 | string | optional
-email_public | int | (1=Yes 2=No)
-first_name | string | Jimmy
-gender | int | (1 = Male 2 = Female)
-language | string | English, french
-comment |
-first_name | string | Janesone
-maritial_status | int |
-occupation | string | optional
-phone | string |
-extra_phone1 | string | optional
-extra_phone2 | string | optional
-phone_public | int | (1 = Yes 0 = No)
-smoker | int | (1 = Yes 0 = No)
-user_description | string |
+| URI Parameter          | Type   | Required | Description           |
+|:-----------------------|:-------|:---------|:----------------------|
+| login_hash             | string | yes      | <user hash key>       |
+| address_line[address1] | string |          |                       |
+| address_line[address2] | string |          |                       |
+| city                   | string |          |                       |
+| dob                    | date   |          | 1990-02-06            |
+| email                  | string |          |                       |
+| extra_email1           | string | optional |                       |
+| extra_email2           | string | optional |                       |
+| email_public           | int    |          | (1=Yes 2=No)          |
+| first_name             | string |          | Jimmy                 |
+| gender                 | int    |          | (1 = Male 2 = Female) |
+| language               | string |          | English, French       |
+| comment                |        |          |                       |
+| first_name             | string |          |                       |
+| maritial_status        | int    |          |                       |
+| occupation             | string | optional |                       |
+| phone                  | string |          |                       |
+| extra_phone1           | string | optional |                       |
+| extra_phone2           | string | optional |                       |
+| phone_public           | int    |          | (1 = Yes 0 = No)      |
+| smoker                 | int    |          | (1 = Yes 0 = No)      |
+| user_description       | string |          |                       |
 
 ## Example
 

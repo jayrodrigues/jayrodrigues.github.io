@@ -11,11 +11,11 @@ GET /settings/change_password
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-old_password  |string|
-new_password |string|
+| URI Parameter | Type   | Required | Description            |
+|:--------------|:-------|:---------|:-----------------------|
+| login_hash    | string | yes      | <user hash key>        |
+| old_password  | string | yes      | base_64 encoded string |
+| new_password  | string | yes      | base_64 encoded string |
 
 
 ## Example

@@ -1,6 +1,6 @@
 # Login
 
-The registration endpoint is used to register new users accounts in RSA. 
+The registration endpoint is used to register new users accounts in RSA.
 
 ## Resource
 
@@ -10,12 +10,10 @@ GET /api/users/login
 
 ## Parameters
 
-
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-username			|string		|**[required]**
-password		  	|string	 	|**[required]** Base64-encoded text.
-
+| URI Parameter | Type   | Required | Description           |
+|:--------------|:-------|:---------|:----------------------|
+| username      | string | yes      | Base64-encoded string |
+| password      | string | yes      | Base64-encoded string |
 
 
 ## Example
@@ -54,5 +52,3 @@ curl -X GET http://staging-api.deplacementpeninsule.ca/api/users/login?username=
   "user_hash": []
 }
 ```
-
-

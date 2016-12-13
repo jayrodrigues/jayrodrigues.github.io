@@ -10,16 +10,16 @@ GET /users/social_login
 
 ## Parameters
 
-Name              	| Type   	| Description
-:------------------	|:----------|:--------------------
-site_lang			|string		|**[required]** en / fr
-first_name		  	|string	 	|**[required]**
-last_name		  	|string	 	|**[required]**
-gender			  	|int	 	|**[required]** 0 = male / 1 = female
-email			  	|string	 	|**[required]**
-profile_img		  	|string	 	|**[required]** Required when signing up via social logins
-identifier		  	|string	 	|**[required]** Required when signing up via social logins
-provider		  	|string	 	|**[required]** provider(0 = Direct Login, 1 = Facebook, 2 = Google)
+| URI Parameter | Type   | Required | Description                                          |
+|:--------------|:-------|:---------|:-----------------------------------------------------|
+| site_lang     | string | yes      | en / fr                                              |
+| first_name    | string | yes      |                                                      |
+| last_name     | string | yes      |                                                      |
+| gender        | int    | yes      | 0 = male / 1 = female                                |
+| email         | string | yes      |                                                      |
+| profile_img   | string | yes      | Required when signing up via social logins           |
+| identifier    | string | yes      | Required when signing up via social logins           |
+| provider      | string | yes      | provider(0 = Direct Login, 1 = Facebook, 2 = Google) |
 
 
 

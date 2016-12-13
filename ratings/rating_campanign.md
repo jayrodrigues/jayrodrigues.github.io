@@ -12,12 +12,12 @@ POST /ratings/rating_campanign
 ## Parameters
 
 
-Name              	| Type   	| Description
-:------------------|:----------	|:--------------------
-login_hash			|string		|**[required]** <user hash key>
-site_lang		  	|string	 	|**[required]** en
-ride_hash   | string  | <ride hash key>
-ride_trip   | int |
+| URI Parameter | Type   | Required | Description     |
+|:--------------|:-------|:---------|:----------------|
+| login_hash    | string | yes      | <user hash key> |
+| site_lang     | string | yes      | en              |
+| ride_hash     | string |          | <ride hash key> |
+| ride_trip     | int    |          |                 |
 
 <!--Comments: For both driver and passenger the same parameters need to pass-->
 
