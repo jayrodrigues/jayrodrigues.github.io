@@ -24,9 +24,9 @@ This is the v1 version of the document.
 
 ### Request Rides
 
-- [**`GET`** /search/list]
+- [**`GET`** /search/list](/requests/search_list.md)
 - [**`GET`** /ride/ride_detail]
-- [**`GET`** /ride/book_ride]
+- [**`GET`** /ride/book_ride](/requests/request_ride.md)
 
 
 ### Offer Rides
