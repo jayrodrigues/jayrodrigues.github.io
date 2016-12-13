@@ -14,21 +14,19 @@ GET example/:id
 
 ## Parameters
 
-name              | type    | notes
-:-----------------|:--------|:------------
-user_id|integer|**required**
-size|integer|**optional**, values: 25, 28, 30, 32, 50, 54, 56, 60, 64, 108, 128, 135, 256, 270, 512 and original
-fallback|boolean|**optional**
+URI Parameter		|Type		|Required    | Description
+:------------------	|:----------|:-----------|:-----------
+user_id|integer|yes|
+size|integer|no| values: 25, 28, 30, 32, 50, 54, 56, 60, 64, 108, 128, 135, 256, 270, 512 and original
+fallback|boolean| no |
 
-    ***
+***
 
-    ## Return format
+## Return format
 
-    ***
 
-    ## Errors
+## Errors
 
-    ***
 
 ## Example
 **Request**
