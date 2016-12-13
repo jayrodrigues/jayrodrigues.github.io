@@ -68,29 +68,30 @@ This is the v1 version of the document.
 - [**`GET`** /settings/load_makes](/settings/load_makes.md)
 - [**`GET`** /settings/load_models](/settings/load_models.md)
 - [**`GET`** /settings/co2_emission](/settings/co2_emission.md)
-- [**`GET`** /settings/veh_delete]
+- [**`GET`** /settings/veh_delete](/settings/veh_delete.md)
 - [**`GET`** /settings/vehicle](/settings/vehicle.md)
 - [**`GET`** /settings/manage_veh](/settings/manage_veh.md)
 
 ### Messages
 
 - [**`GET`** /message]
-- [**`GET`** /message/unread]
-- [**`GET`** /message/inbox]
-- [**`GET`** /message/detail]
-- [**`POST`** /message/send_batch_message]
+- [**`GET`** /message/unread](/message/unread.md)
+- [**`GET`** /message/inbox](/message/inbox.md)
+- [**`GET`** /message/detail](/message/detail.md)
+- [**`POST`** /message/send_batch_message](/message/send_batch_message.md)
 
 ### Ratings
 
 - [**`GET`** /ratings]
-- [**`POST`** /ratings/rating_pending]
-- [**`POST`** /ratings/rating_received]
-- [**`POST`** /ratings/rating_given]
-- [**`POST`** /ratings/ratings/rating_campanign]
+- [**`POST`** /ratings/rating_pending](/ratings/rating_pending.md)
+- [**`POST`** /ratings/rating_received](/ratings/rating_received.md)
+- [**`POST`** /ratings/rating_given](/ratings/rating_given.md)
+- [**`POST`** /ratings/ratings/rating_campanign](/ratings/rating_campanign.md)
+- [**`POST`** /ratings/ratings/rating_campanign](/ratings/rating_campanign_after.md)
 
 
 ### Deprecated
-- **`GET`** /settings/membership
-- **`GET`** /settings/membership (Direct Payment via office)
-- **`GET`** /settings/stripe
-- **`GET`** /users/membership_verify - check if this is required
+- [**`GET`** /settings/membership](/membership/membership.md)
+- [**`GET`** /settings/membership (Direct Payment via office)](/membership/membership_office.md)
+- [**`GET`** /settings/stripe](/membership/stripe.md)
+- [**`GET`** /users/membership_verify] - check if this is required
