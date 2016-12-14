@@ -24,14 +24,22 @@ This is the v1 version of the document.
 
 ### Request Rides
 
-- [**`GET`** /search/list](/requests/search_list.md)
-- [**`GET`** /ride/ride_detail](/requests/ride_detail.md)
-- [**`GET`** /ride/book_ride](/requests/request_ride.md)
+- [**`GET`** /search/list]
+- [**`GET`** /ride/ride_detail]
+- [**`GET`** /ride/book_ride]
 
 
-### Offer Rides
+### Offer Rides: One-Off
 
-- [**`POST`** /ride/offer_ride]
+- [**`POST`** /ride/offer_ride](/rides/one-off/step1.md)
+- [**`POST`** /ride/update_price]
+- [**`GET`** /ride/offer_ride]
+- [**`POST`** /ride/update_price]
+- [**`POST`** /ride/update_price]
+
+### Offer Rides: Regular
+
+- [**`POST`** /ride/offer_ride](/rides/regular/step1.md)
 - [**`POST`** /ride/update_price]
 - [**`GET`** /ride/offer_ride]
 - [**`POST`** /ride/update_price]
