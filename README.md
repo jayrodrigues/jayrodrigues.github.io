@@ -53,8 +53,8 @@ This is the v1 version of the document.
 - [**`POST`** /my_trips/handle_action](/rides/my_trips/edit_ride.md)
 - [**`GET`** /my_trips/handle_action](/rides/my_trips/edit_ride-edit_form.md)
 - [**`POST`** /my_trips/handle_action](/rides/my_trips/edit_ride-form_submit.md)
-- [**`GET`** /my_trips/handle_action] (method: cancel_ride)
-
+- [**`GET`** /my_trips/handle_action](rides/my_trips/cancel_ride-all.md)
+- [**`GET`** /my_trips/handle_action](rides/my_trips/cancel_ride-on_Date.md)
 
 ### My Trips: Passenger (requests)
 - [**`GET`** /my_trips/handle_action](/requests/my_trips/passenger.md)
