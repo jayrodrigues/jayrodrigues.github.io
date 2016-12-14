@@ -32,7 +32,7 @@ This is the v1 version of the document.
 ### Offer Rides: One-Off
 
 - [**`POST`** /ride/offer_ride](/rides/one-off/step1.md)
-- [**`POST`** /ride/update_price]
+- [**`POST`** /ride/update_price](rides/update_price.md)
 - [**`GET`** /ride/offer_ride]
 - [**`POST`** /ride/update_price]
 - [**`POST`** /ride/update_price]
