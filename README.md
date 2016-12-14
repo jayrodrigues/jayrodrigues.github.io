@@ -50,7 +50,9 @@ This is the v1 version of the document.
 - [**`GET`** /my_trips/handle_action]
 - [**`GET`** /my_trips/handle_action](/rides/my_trips/driver.md)
 - [**`GET`** /my_trips/handle_action](/rides/my_trips/driver_past.md)
-- [**`POST`** /my_trips/handle_action] (method: edit_ride)
+- [**`POST`** /my_trips/handle_action](/rides/my_trips/edit_ride.md)
+- [**`GET`** /my_trips/handle_action](/rides/my_trips/edit_ride-edit_form.md)
+- [**`POST`** /my_trips/handle_action](/rides/my_trips/edit_ride-form_submit.md)
 - [**`GET`** /my_trips/handle_action] (method: cancel_ride)
 
 
