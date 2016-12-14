@@ -49,14 +49,14 @@ This is the v1 version of the document.
 ### My Trips: Driver (rides)
 - [**`GET`** /my_trips/handle_action]
 - [**`GET`** /my_trips/handle_action](/rides/my_trips/driver.md)
-- [**`GET`** /my_trips/handle_action] (method: driver_past)
+- [**`GET`** /my_trips/handle_action](/rides/my_trips/driver_past.md)
 - [**`POST`** /my_trips/handle_action] (method: edit_ride)
 - [**`GET`** /my_trips/handle_action] (method: cancel_ride)
 
 
 ### My Trips: Passenger (requests)
 - [**`GET`** /my_trips/handle_action](/requests/my_trips/passenger.md)
-- [**`GET`** /my_trips/handle_action] (method: passenger_past)
+- [**`GET`** /my_trips/handle_action](/requests/my_trips/passenger_past.md)
 - [**`POST`** /my_trips/handle_action] (cancel passenger)
 
 
