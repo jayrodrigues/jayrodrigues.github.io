@@ -29,6 +29,7 @@ This is the v1 version of the document.
 - [**`GET`** /ride/book_ride]
 
 
+
 ### Offer Rides: One-Off
 
 - [**`POST`** /ride/offer_ride](/rides/one-off/step1.md)
@@ -45,7 +46,7 @@ This is the v1 version of the document.
 - [**`POST`** /ride/update_price]
 - [**`POST`** /ride/update_price]
 
-### My Trips: Driver
+### My Trips: Driver (rides)
 - [**`GET`** /my_trips/handle_action]
 - [**`GET`** /my_trips/handle_action] (method: driver)
 - [**`GET`** /my_trips/handle_action] (method: driver_past)
@@ -53,7 +54,7 @@ This is the v1 version of the document.
 - [**`GET`** /my_trips/handle_action] (method: cancel_ride)
 
 
-### My Trips: Passenger
+### My Trips: Passenger (requests)
 - [**`GET`** /my_trips/handle_action] (method: passenger)
 - [**`GET`** /my_trips/handle_action] (method: passenger_past)
 - [**`POST`** /my_trips/handle_action] (cancel passenger)
